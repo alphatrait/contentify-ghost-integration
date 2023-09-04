@@ -26,7 +26,7 @@ Getting Started
     
     bashCopy code
     
-    `git clone https://github.com/your-repo-link.git cd your-repo-directory`
+    ```git clone https://github.com/your-repo-link.git cd your-repo-directory```
     
 2.  **Install dependencies:**
     
