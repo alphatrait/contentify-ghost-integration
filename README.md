@@ -53,7 +53,7 @@ Getting Started
     API_KEY=CONTENTIFY_KEY
 
     ```
-    <br>
+
     
     `GHOST_URL`: This is your URL<br>
     `GHOST_API_KEY`: Get Ghost Admin API from Settings > Integrations > Add Custom Integrations<br>
