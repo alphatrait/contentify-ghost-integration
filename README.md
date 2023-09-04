@@ -14,7 +14,7 @@ Table of Contents
 *   [Deployment](#deployment)
 *   [Useful Links](#useful-links)
 <br>
-<br>
+
 
 Prerequisites
 -------------
