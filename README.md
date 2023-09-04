@@ -26,7 +26,7 @@ Getting Started
     
     bashCopy code
     
-    ```git clone https://github.com/your-repo-link.git cd your-repo-directory```
+    ```git clone https://github.com/your-repo-link.git cd your-repo-directory`
     
 2.  **Install dependencies:**
     
@@ -80,7 +80,11 @@ Deployment
     
 2.  **Follow the deployment guide:** Each hosting provider will have its own deployment guide. Here's a [guide for deploying Node.js apps on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs).
     
-3.  **Set environment variables:** Once deployed, ensure you set the environment variables (`GHOST_URL` and `GHOST_API_KEY`) on your hosting provider's platform.
+3.  **Set environment variables:** Once deployed, ensure you set the environment variables (`GHOST_URL`, `GHOST_API_KEY`, `API_KEY`) on your hosting provider's platform. 
+
+`GHOST_URL`: This is your URL
+`GHOST_API_KEY`: Get Ghost Admin API from Settings > Integrations > Add Custom Integrations
+`API_KEY`: Get this API Key from [Contentify](https://contentify.app/)
     
 
 Useful Links
