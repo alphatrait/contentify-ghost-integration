@@ -25,7 +25,6 @@ Prerequisites
 
 Getting Started
 ---------------
-<br>
 
 1.  **Clone the repository:**
     
@@ -75,8 +74,6 @@ Getting Started
 
 Usage
 -----
-<br>
-
 *   **Create a Post:**
     
     Send a `POST` request to `/admin/posts` with the post details.<br>
@@ -101,8 +98,6 @@ Usage
 
 Deployment
 ----------
-<br>
-
 1.  **Choose a hosting provider:** There are many providers like [Heroku](https://www.heroku.com/), [DigitalOcean](https://www.digitalocean.com/), [AWS](https://aws.amazon.com/), etc. For beginners, Heroku is recommended due to its simplicity.
 <br>
 <br>
