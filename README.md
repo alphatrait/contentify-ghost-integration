@@ -24,31 +24,39 @@ Getting Started
 
 1.  **Clone the repository:**
     
-    bashCopy code
     
-    ```git clone https://github.com/your-repo-link.git cd your-repo-directory```
+    ```bash
+    git clone https://github.com/your-repo-link.git cd your-repo-directory
+    ```
     
 2.  **Install dependencies:**
     
-    bashCopy code
-    
-    `npm install`
+    ```bash
+    npm install
+    ```
     
 3.  **Setting up the environment variables:**
     
     Create a `.env` file in the root directory of the project. Add the following content:
     
-    envCopy code
+    ```env
+    GHOST_URL=YOUR_GHOST_URL 
+    GHOST_API_KEY=YOUR_GHOST_ADMIN_API_KEY
+    API_KEY=CONTENTIFY_KEY
+
+    ```
     
-    `GHOST_URL=YOUR_GHOST_URL GHOST_API_KEY=YOUR_GHOST_ADMIN_API_KEY`
+    `GHOST_URL`: This is your URL
+    `GHOST_API_KEY`: Get Ghost Admin API from Settings > Integrations > Add Custom Integrations
+    `API_KEY`: Get this API Key from [Contentify](https://contentify.app/)
     
-    Replace `YOUR_GHOST_URL` with your Ghost instance URL and `YOUR_GHOST_ADMIN_API_KEY` with your Ghost Admin API key.
     
 4.  **Start the server:**
     
-    bashCopy code
     
-    `npm start`
+    ```bash
+    npm start
+    ```
     
     The server will start on port 3000 by default. You can access it at `http://localhost:3000`.
     
@@ -82,10 +90,6 @@ Deployment
     
 3.  **Set environment variables:** Once deployed, ensure you set the environment variables (`GHOST_URL`, `GHOST_API_KEY`, `API_KEY`) on your hosting provider's platform. 
 
-`GHOST_URL`: This is your URL
-`GHOST_API_KEY`: Get Ghost Admin API from Settings > Integrations > Add Custom Integrations
-`API_KEY`: Get this API Key from [Contentify](https://contentify.app/)
-    
 
 Useful Links
 ------------
